@@ -13,7 +13,31 @@ ul{
     list-style: none;
 }
 
-/* Background colours */
+button{
+    color: #f9faf8;
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.image{
+    min-width: 500px;
+    background-color: #787a83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#e5e7eb;
+}
+
+.placeholder{
+
+}
+
+/* Background colours & section size*/
 
 .blue{
     background-color: #1F2937;
@@ -23,12 +47,20 @@ ul{
     background-color: #f9faf8;
 }
 
+.section{
+    display: flex;
+    justify-content: center;
+}
+.cap{
+    flex: 0 1 1024px;
+}
+
 /* Header Section */
 
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -65,9 +97,27 @@ ul{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin: 0;
 }
 
 .banner-text p{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: 512px;
+    gap: 10px;
 }
