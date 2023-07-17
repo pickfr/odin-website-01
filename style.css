@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -11,10 +13,22 @@ ul{
     list-style: none;
 }
 
+/* Background colours */
+
+.blue{
+    background-color: #1F2937;
+}
+
+.white{
+    background-color: #f9faf8;
+}
+
+/* Header Section */
+
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -32,9 +46,28 @@ ul{
     padding: 25px;
 }
 
-ul,.header-right{
+.header-right ul{
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
+/* Content section */
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Banner Section */
+
+.banner-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.banner-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
