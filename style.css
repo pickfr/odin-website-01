@@ -255,3 +255,14 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/*Footer*/
+
+.footer{
+    background-color: #1F2937;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
