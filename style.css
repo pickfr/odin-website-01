@@ -1,19 +1,19 @@
-body{
+body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: #e5e7eb;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-button{
+button {
     color: #f9faf8;
     background-color: #3882F6;
     border: none;
@@ -23,62 +23,69 @@ button{
     border-radius: 5px;
 }
 
-.image{
+.inverted {
+    border: #f9faf8;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.image {
     background-color: #787a83;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:#e5e7eb;
+    color: #e5e7eb;
     width: 100%;
 }
 
 /* Background colours & section size*/
 
-.blue{
+.blue {
     background-color: #1F2937;
 }
 
-.white{
+.white {
     background-color: #f9faf8;
 }
 
 
-.grey{
+.grey {
     background-color: #E5E7EB;
 }
 
-.section{
+.section {
     display: flex;
     justify-content: center;
-}
-.cap{
-    flex: 0 1 1024px;
     padding: 0 50px;
+}
+
+.cap {
+    flex: 0 1 1024px;
 }
 
 /* Header Section */
 
-.header{
+.header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-left{
+.header-left {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
 }
 
-.header-right{
+.header-right {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 500;
 }
 
-.header-right ul{
+.header-right ul {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -86,27 +93,27 @@ button{
 
 /* Content section */
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
 }
 
 /* Banner Section */
 
-.banner-text h1{
+.banner-text h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     margin: 0;
 }
 
-.banner-text p{
+.banner-text p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
 }
 
-.banner{
+.banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -115,7 +122,7 @@ button{
     gap: 25px;
 }
 
-.banner-text{
+.banner-text {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -125,34 +132,34 @@ button{
 }
 
 /* Tile Section */
-.tiles{
+.tiles {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 100px;
 }
 
-.tile-title{
+.tile-title {
     display: flex;
     justify-content: center;
     padding: 40px 0;
 }
 
-.tile-title h2{
- padding: 0;
- margin: 0;
- text-align: center;
- font-size: 36px;
- font-weight: 900;
+.tile-title h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
-.tile-container{
+.tile-container {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
-.tile-item{
+.tile-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,16 +168,16 @@ button{
     gap: 5px;
 }
 
-.tile-text{
+.tile-text {
     max-width: 150px;
     color: #4b4c50;
 }
 
-.tile-image{
+.tile-image {
     max-width: 150px;
     color: #bebebe;
     aspect-ratio: 1;
-    border:#3882F6;
+    border: #3882F6;
     border-style: solid;
     border-width: 4px;
     border-radius: 20px;
@@ -182,15 +189,15 @@ button{
 
 /* Quote Section */
 
-.quote-container{
+.quote-container {
     color: #1F2937;
     max-width: 768px;
     display: flex;
     flex-direction: column;
-    padding: 100px 0; 
+    padding: 100px 0;
 }
 
-.quote{
+.quote {
     display: flex;
     justify-content: start;
     font-size: 36px;
@@ -198,9 +205,53 @@ button{
     font-weight: 300;
 }
 
-.quote-name{
+.quote-name {
     display: flex;
     justify-content: end;
     font-size: 24px;
     font-weight: 700;
+}
+
+/* CTA Section */
+
+.cta-background {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    flex: 0 1 1024px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
+.cta-container {
+    display: flex;
+    flex: 0 1 768px;
+    justify-content: space-between;
+    padding: 0 50px;
+    gap: 50px;
+}
+
+.cta-title {
+    display:flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.cta-text {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
