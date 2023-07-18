@@ -24,13 +24,13 @@ button{
 }
 
 .image{
-    min-width: 500px;
     background-color: #787a83;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color:#e5e7eb;
+    width: 100%;
 }
 
 /* Background colours & section size*/
@@ -120,10 +120,16 @@ button{
 }
 
 /* Tile Section */
+.tiles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .tile-title{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .tile-title h2{
@@ -133,3 +139,39 @@ button{
  font-size: 36px;
  font-weight: 900;
 }
+
+.tile-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tile-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.tile-text{
+    max-width: 150px;
+    color: #4b4c50;
+}
+
+.tile-image{
+    max-width: 150px;
+    color: #bebebe;
+    aspect-ratio: 1;
+    border:#3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Quote Section */
